@@ -1,0 +1,6 @@
+---Processing Data from emails
+---Take Body of email:
+-----> Summarise email
+-----> Worth user reading?
+-----> Categorise emails
+

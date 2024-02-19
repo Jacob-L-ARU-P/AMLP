@@ -1,0 +1,43 @@
+--- Digital Assistant ---
+- Features:
+---=NLP=--------------------------------------------
+-- Read Emails & Summerise
+-- Worth Presenting to User Y/N?
+-- Categorise emails
+-- Digital Assistant Conversation Style
+-- Queuery interpretation
+-- Queuery response
+---=Testing=----------------------------------------
+-- Did it miss important emails?
+-- 
+---=Emails=-----------------------------------------
+-- Read emails
+-- Delete emails
+-- Draft emails
+-- Send emails
+----------------------------------------------------
+
+
+--=Stretch Features=--------------------------------
+---=Contacts=---------------------------------------
+-- Check email contacts(?)
+-- Add email contacts(?)
+-- Delete email contacts(?)
+---=Calendar=---------------------------------------
+-- Check Calendar
+-- Read Calendar Appointments
+-- Edit Calendar Appointments
+-- Add Calendar Appointments
+-- Delete Calendar Appointments
+-- Set Local-System Reminders for Appointments
+---=SysClock/Alarm/Reminders=-----------------------
+-- Read System Clock
+-- Get Date, Time, Year
+-- Check Reminders/Alarms
+-- Edit Reminders/Alarms
+-- Add/Delete Reminders/Alarms
+---=StretchFeatures=--------------------------------
+-- Access location data
+-- Get local weather forecasts(?)
+-- News Briefing(?)
+-- Other(?)

@@ -1,0 +1,55 @@
+Project Goals so far:
+- New Gmail Account made
+- Gmail Account dev features enabled, api keys made
+- initial python code to access emails acquired from 3rd party source
+
+-----------------------------------------------------------------------
+Logbook:
+-- If I can write code to demo the feature, the code and screenshots
+   will go into a file to be added to the logbook
+-- If I find out I can't do the feature do to permissions/lack of API
+   functionality, will add footnote mentioning this to logbook
+-- If I find out I can't do the feature do to code, will add the
+   attempt to the logbook, and revisit in a later logbook entry*
+
+* Assuming I don't drop the troublesome feature in favor of improving
+  what I already have.
+----------------------------------------------------------------------
+Report:
+-- ~4000 words
+-- Introduction
+-- Paragraph about feature code
+-- Main Paragraphs about NLP
+-- Sources/References
+-- Example Screencaptures of code in action
+----------------------------------------------------------------------
+Plan of Action:
+Week 4:
+----> Investigate other GoogleApp API's
+----> Google Calendar, etc
+----> =Emails=
+----> Logbook 1
+Week 5:
+----> =Contacts=
+----> Logbook n*
+Week 6:
+----> =Calendar=
+----> Logbook 2
+Week 7:
+----> =System Clock/Alarm/Reminders=
+----> Logbook 3
+Week 8:
+----> Console App Should be feature Complete <----- 
+----> Logbook 4
+Week 9:
+----> NLP Component Polished to best of ability <-----
+----> Logbook 5
+Week 10:
+----> Report Writing <-----
+----> 
+Week 11:
+----> Report Polishing <-----
+----> 
+Week 12:
+----> 
+----> SUBMIT PROJECT <----
