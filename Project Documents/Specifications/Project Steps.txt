@@ -1,0 +1,7 @@
+Programming Language = Python
+Code Editor(s): VS Code, Visual Studio, Python IDLE, Jupyter Notebook via VS Code
+Step 1: Runnable Program that says "Hello".
+Step 2: Runnable Program that runs Gmail API script to check inbox
+Step 3: PANIK
+Step 4: Read Gmail API literature for relevant knowledge, again.
+Step 5: Remember to Breathe.
