@@ -1,0 +1,4 @@
+---> Research Block:
+=======> What is Natural Language Processing? (NLP)
+=======> What is some of the Math behind NLP?
+=======> What are some of the tools available for NLP?

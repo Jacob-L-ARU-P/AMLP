@@ -1,0 +1,20 @@
+4000 words equivelant.
+19th April Submission Deadline.
+'Proper' Report format:
+---> Introduction
+---> Project Proposal
+---> Research Block:
+=======> What is Natural Language Processing? (NLP)
+=======> What is some of the Math behind NLP?
+=======> What are some of the tools available for NLP?
+---> Methodology Block:
+=======> Data Acquisition
+=======> Data Cleansing, the how and the why
+=======> Data Analysis
+=======> Visualisation back to end-user
+---> Findings Block:
+=======> What did I find out about NLP?
+=======> How did Project measure up to project aims?
+=======> Was NLP the right choice for the project?
+---> Evaluation of Performance
+---> TBA?

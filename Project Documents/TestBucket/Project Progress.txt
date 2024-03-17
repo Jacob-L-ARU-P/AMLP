@@ -1,0 +1,14 @@
+> Can access emails from test account
+> Can write details to csv
+> Can do most of the data pre-processing for NLTK
+---------------------------------------------------
+Next steps:
+> Write code to add flag to specific senders
+# Flag is a label?
+> Write code to sort through sender dictionary
+# Prioritise Flagged senders
+> Write code to sort through Date dictionary
+  to prioritise most recent emails
+> Write code to sort through subject dictionary
+  based on prior sorts
+>

@@ -1,0 +1,10 @@
+qetQRcode - QR code generator - https://rapidapi.com/jsavajols/api/getqrcode/
+
+Sqreen - security aid? - https://rapidapi.com/zakutynsky/api/Sqreen/
+
+RapidAPI - API service - https://rapidapi.com/hub
+
+Tom Scott videos possibly related to Zipf's Law which may be relevant to NLP:
+    - https://www.youtube.com/watch?v=pU9sHwNKc2c
+    - https://www.youtube.com/watch?v=h0AMaW4XRCI
+    
