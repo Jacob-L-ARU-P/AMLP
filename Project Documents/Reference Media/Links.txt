@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=FLZvOKSCkxY&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+
+https://www.youtube.com/watch?v=fNxaJsNG3-s&list=PLQY2H8rRoyvzDbLUZkbudP-MFQZwNmU4S
+
+https://scikit-learn.org/stable/index.html
+https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
+https://scikit-learn.org/stable/modules/feature_extraction.html
+https://scikit-learn.org/stable/modules/classes.html#text-feature-extraction-ref
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer
+

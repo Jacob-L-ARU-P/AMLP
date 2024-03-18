@@ -84,7 +84,7 @@ that can be simple or elaborate, and that share features with other desserts suc
 and pies."""
 words_a= [word_tokenize(i) for i in sent_tokenize(content_a)]
 pos_tag_a= [nltk.pos_tag(i,tagset="universal") for i in words_a]
-print("\n\n", pos_tag_a)
+print("\nPOS Tagging Example:\n", pos_tag_a)
 
 # /////// Chunking //////////////////
 content_b = "Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked."
@@ -93,14 +93,28 @@ tagged_token_a = nltk.pos_tag(tokenized_text_a)
 grammer_a = "NP: {<DT>?<JJ>*<NN>}"
 phrases_a = nltk.RegexpParser(grammer_a)
 result_b = phrases_a.parse(tagged_token_a)
-#print("\n\n", result_b, "\n")
-#result_b.draw()
+print("\nChunking example: \n", result_b)
+result_b.draw()
 
 # /////// Bag of Words //////////////
-content_c = """Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked.
-In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, and that share features with other desserts such as pastries, meringues, custards, and pies."""
+content_c = [
+    'Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked.',
+    'In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, and that share features with other desserts such as pastries, meringues, custards, and pies.' # Document 1
+             ]
 
-count_vectorizer_a = CountVectorizer()
-bag_of_words = count_vectorizer_a.fit_transform(content_c.splitlines())
+count_vectorizer_a = CountVectorizer() # Tokenize and occurrence counting
+#bag_of_words = count_vectorizer_a.fit_transform(content_c.splitlines()) # <--- This line is from the NLTK_Tutorial Page that spawned this program document.
+bag_of_words = count_vectorizer_a.fit_transform(content_c)
+print("\nBag of Words Example: \n", bag_of_words) # 1-gram example
+# "Each term found by the analyzer during the fit is assigned a unique integer index corresponding to a column in the resulting matrix. 
+# This interpretation of the columns can be retrieved as follows in the following 2 code-lines."
+print("\nAnalyzer Analysis: \n", count_vectorizer_a.get_feature_names_out()) 
+print("\nArray Mapping: \n", bag_of_words.toarray())
+# Combining the above two lines of code into a pandas dataframe
+print("\nData Visualing: \n", pd.DataFrame(bag_of_words.toarray(), columns = count_vectorizer_a.get_feature_names_out())) # Why aren't you working?
+bigram_vectorizer = CountVectorizer(ngram_range=(1,2), token_pattern=r'\b\w+\b', min_df=1)
+analyze_a = bigram_vectorizer.build_analyzer()
+print("\nBigram Testing: \n", analyze_a("Bi-grams are cool!"))
+bag_of_words_2 = bigram_vectorizer.fit_transform(content_c).toarray()
+print("\nBigram Vectorizer example: \n", bag_of_words_2)
 
-#pd.DataFrame(bag_of_words.toarray(), columns = count_vectorizer_a.get_feature_names()) # Why aren't you working?
